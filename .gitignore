@@ -1,5 +1,15 @@
 *
 
+!.editorconfig
 !.gitignore
 !.node-version
+!.prettierignore
+!.prettierrc.cjs
+!pnpm-lock.yaml
 !*.json
+
+!src/
+!src/**/*.ts
+
+!config/
+!config/*.json
