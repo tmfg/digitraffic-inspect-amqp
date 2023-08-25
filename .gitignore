@@ -5,8 +5,11 @@
 !.node-version
 !.prettierignore
 !.prettierrc.cjs
+!LICENCE
+!package.json
 !pnpm-lock.yaml
-!*.json
+!README.md
+!tsconfig.json
 
 !src/
 !src/**/*.ts
