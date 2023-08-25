@@ -5,13 +5,13 @@
   "keywords": [],
   "license": "EUPL-1.2-or-later",
   "author": "Digitraffic",
-  "type": "module",
-  "module": "lib/index.js",
+  "type": "commonjs",
+  "main": "lib/index.js",
   "scripts": {
     "build": "heft build",
     "bundle": "npm run bundle:esbuild && chmod +x dist/inspect-amqp",
     "bundle:watch": "npm run bundle:esbuild -- --watch",
-    "bundle:esbuild": "esbuild --bundle --platform=node --format=cjs --target=node18 --outfile=dist/inspect-amqp.cjs src/index.ts",
+    "bundle:esbuild": "esbuild --bundle --platform=node --format=cjs --target=node18 --outfile=dist/inspect-amqp src/index.ts",
     "prettier": "pretty-quick",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -9,7 +9,7 @@
       "actionKind": "deleteGlobs",
       "heftEvent": "clean",
       "actionId": "defaultClean",
-      "globsToDelete": ["dist", "dist-commonjs", "temp"]
+      "globsToDelete": ["dist", "lib", "temp"]
     }
   ],
 
