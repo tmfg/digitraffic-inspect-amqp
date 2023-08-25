@@ -8,17 +8,26 @@
   "type": "module",
   "module": "lib/index.js",
   "scripts": {
+    "build": "heft build",
+    "bundle": "esbuild --bundle --platform=node --format=cjs --target=node18 --outfile=dist/inspect-amqp.cjs src/index.ts && chmod +x dist/inspect-amqp",
     "prettier": "pretty-quick",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "rhea": "^3.0.2"
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "pino": "^8.14.1",
+    "rhea": "^3.0.2",
+    "rhea-promise": "^3.0.1"
   },
   "devDependencies": {
     "@rushstack/heft": "^0.50.7",
     "@rushstack/heft-jest-plugin": "^0.5.13",
+    "@types/fs-extra": "^11.0.1",
     "@types/heft-jest": "^1.0.3",
+    "@types/minimist": "^1.2.2",
     "@types/node": "^20.2.5",
+    "esbuild": "^0.19.2",
     "prettier": "^2.8.8",
     "prettier-plugin-packagejson": "^2.4.3",
     "pretty-quick": "^3.1.3",
