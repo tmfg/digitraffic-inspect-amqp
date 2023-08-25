@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "license": "ISC",
-  "author": "",
+  "license": "EUPL-1.2-or-later",
+  "author": "Digitraffic",
   "type": "module",
   "module": "lib/index.js",
   "scripts": {
