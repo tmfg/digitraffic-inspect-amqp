@@ -4,6 +4,8 @@ Simple command line tool to inspect data in AMQP.
 
 ## Usage
 
+Build the app with `bundle` script (i.e. `pnpm bundle`), which will create the cli app `dist/inspect-amqp.cjs`.
+
 ```
 λ dist/inspect-amqp.cjs --help
 Usage: inspect-amqp [options]
